@@ -2,8 +2,29 @@
     margin: 0;
     padding: 0;
 }
+header{
+    background-color: rgb(255, 255, 0);
+}
 div{
-    border: 2px solid rgb(0, 0, 0);
+     /*border: 2px solid rgb(0, 0, 0); 
+     text-align: center; */
+}
+.PosImg{
+    position: absolute;
+    align-items: end;
+}
+.img-col{
+    margin-top: 5px;    
+}
+.col-6{
+    align-items: center;
+}
+input{
+    color: rgba(0, 0, 0, .8980392157); 
+    border: 0;
+    width: 80%;
+    height:30px;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, .2);           
 }
 div p{
     margin: 0;
