@@ -9,9 +9,15 @@ div{
      /*border: 2px solid rgb(0, 0, 0); 
      text-align: center; */
 }
-.PosImg{
+.pos-rel{
+    position: relative;
+    width: 100%;
+}
+.pos-Img{
     position: absolute;
-    align-items: end;
+    height: 20px;
+    padding-right: 10px;
+    right: 0;
 }
 .img-col{
     margin-top: 5px;    
@@ -22,8 +28,8 @@ div{
 input{
     color: rgba(0, 0, 0, .8980392157); 
     border: 0;
-    width: 80%;
-    height:30px;
+    width: 100%;
+    height:35px;
     box-shadow: 0 1px 2px 0 rgba(0, 0, 0, .2);           
 }
 div p{
